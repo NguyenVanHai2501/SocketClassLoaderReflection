@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SocketClassLoaderReflection:jar">
+    <output-path>$PROJECT_DIR$/..</output-path>
+    <root id="archive" name="SocketClassLoaderReflection.jar">
+      <element id="module-output" name="SocketClassLoaderReflection" />
+    </root>
+  </artifact>
+</component>
