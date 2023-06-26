@@ -72,7 +72,8 @@ public class ClientHandler implements Runnable {
         if (listInput.size() != 3) {
             throw new InputNotSupportException("Input not support: " + input + ". Enter with format: MATH, INTEGER, INTEGER");
         }
-        MathType mathType = convert2MathType(listInput.get(0));
+//        MathType mathType = convert2MathType(listInput.get(0));
+        String mathType = listInput.get(0).toUpperCase();
         CustomClassLoader customClassLoader = new CustomClassLoader();
         try {
             Object obj;

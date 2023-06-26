@@ -1,7 +1,8 @@
 package math;
 
-public class Mul {
+public class POW {
     public int calculator(int a, int b) {
-        return a*b;
+        return (int) Math.pow(a, b);
     }
+
 }

@@ -1,7 +1,7 @@
 package math;
 
-public class Sub {
+public class ADD {
     public int calculator(int a, int b) {
-        return a-b;
+        return a+b;
     }
 }
